@@ -4,7 +4,7 @@ interface Group {
   link: string;
 }
 
-const groups: Group[] = [
+export const groups: Group[] = [
   { name: 'Analisi 1', link: 'https://t.me/joinchat/TqbNkpTYMiTMHf_E' },
   { name: 'Chimica', link: 'https://t.me/joinchat/RPhAVyaTD-Vjjjr4' },
   { name: "Polito Students",link: "https://t.me/PolitoStudents"},

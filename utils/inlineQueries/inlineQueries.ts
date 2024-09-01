@@ -1,5 +1,6 @@
 // inlineQueries.ts
 import { InlineQueryResult, InlineQueryResultArticle } from 'grammy/types';
+import {groups} from "../groups/groups"
 
 // Funzione per generare i risultati della query inline
 export function generateInlineResults(query: string): InlineQueryResult[] {

@@ -15,7 +15,7 @@ export const generalKeyboard = new InlineKeyboard()
     .text("Indietro", "back_main").row();
 // Bachelor Keyboard
 export const bachelorKeyboard = new InlineKeyboard()
-    .text("primo Anno", "primo_anno").row()
+    .text("Primo Anno", "primo_anno").row()
     .text("Secondo Anno", "secondo_anno").row()
     .text("Terzo Anno", "terzo_anno").row()
     .text("Indietro", "back_main").row();

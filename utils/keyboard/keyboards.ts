@@ -34,6 +34,7 @@ export const primoAnnoKeyboard = new InlineKeyboard()
 // Bachelor Keyboard
 export const secondoAnnoKeyboard = new InlineKeyboard()
     .url("Analisi 2", "https://t.me/analisi2chimica").row()
+    .url("Fenomeni di trasporto e Fluidodinamica Computazionale").row()
     .text("Indietro", "back_triennale").row();
 
 
@@ -43,6 +44,13 @@ export const terzoAnnoKeyboard = new InlineKeyboard()
 
 // Master Keyboard
 export const masterKeyboard = new InlineKeyboard()
-    //.text("Primo Anno", "opt3_1").row()
-    //.text("Secondo Anno", "opt3_2").row()
+    .url("Controllo Avanzato", "https://t.me/+hAZCxCTmwg00Nzk8").row()
+    .url("Costruzione di Apparecchiature per l'Industria Chimica", "https://t.me/+hAZCxCTmwg00Nzk8").row()
+    .url("Biochimica e Biotecnologie Sostenibili", "https://t.me/+cOXkSXvwOEsyMDQ0").row()
+    .url(" Fenomeni di Trasporto e Fluidodinamica Computazionale", "https://t.me/+kR1aEfyjM64zZjY0").row()
+    .url("Calcolo Numerico", "https://t.me/+eBz0sbruJ04xY2Rk").row()
+    .url("Controllo Avanzato (https://t.me/+f_LhAF9A3WM4NTdk)", "https://t.me/+hAZCxCTmwg00Nzk8").row()
+    .url("Ingegneria Chimica LM", "https://t.me/+pcdDEd_zPaIyZTk0").row()
+    .url("Applied Physical Chemistry", "https://t.me/+Oa9U5hPkSys2NGE0").row()
+    .url("Industrial Chemistry and Process Simulation", "https://t.me/+kGqqHOE0_Zk2ZmJk").row()
     .text("Indietro", "back_main").row();
